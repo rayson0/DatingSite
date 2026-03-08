@@ -4,7 +4,6 @@ from random import *
 import pymorphy3
 from flask import *
 from werkzeug.security import *
-from pprint import *
 
 
 def get_name_for_seen_post(type, seen):

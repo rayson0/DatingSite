@@ -1,5 +1,4 @@
 from string import *
-from random import *
 
 import phonenumbers
 from validate_email import *

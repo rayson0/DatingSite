@@ -100,7 +100,7 @@ class Submit(FlaskForm):
 
 
 class ChangeEmailForm(Submit):
-    email = StringField(validators=[Email(), DataRequired()])
+    email = StringField(validators=[DataRequired()])
 
 
 class ChangeNumberForm(Submit):
